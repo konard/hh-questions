@@ -36,13 +36,15 @@ Thank you for your interest in contributing to this project! This repository con
 
 **Questions in README files must be sorted alphabetically by their directory names.** This is critical to minimize merge conflicts when multiple contributors add new questions simultaneously.
 
-Example of correct alphabetical order:
+**Important: Use bullet points (`-`), not numbered lists (`1.`, `2.`, etc.) in README files.** Numbered lists always cause merge conflicts when multiple contributors add questions at different positions. Bullet points avoid this problem.
+
+Example of correct alphabetical order with bullet points:
 ```
-1. bash-script-review
-2. disk-space-inodes-issue
-3. iostat-disk-load-assessment
-4. mysql-performance-troubleshooting
-5. shell-script-execution-commands
+- bash-script-review
+- disk-space-inodes-issue
+- iostat-disk-load-assessment
+- mysql-performance-troubleshooting
+- shell-script-execution-commands
 ```
 
 When adding a new question, insert it in the correct alphabetical position rather than appending to the end of the list.
