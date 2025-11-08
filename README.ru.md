@@ -7,3 +7,4 @@
 ## Список вопросов
 
 1. [Расскажите, чем отличаются команды: "t.sh" ". t.sh" "/t.sh" "./t.sh"?](./questions/shell-script-execution-commands/index.ru.md)
+2. [Проведите ревью bash-скрипта](./questions/bash-script-review/index.ru.md)

@@ -7,3 +7,4 @@ Questions and answers on hh.ru
 ## Questions List
 
 1. [What is the difference between the commands: "t.sh" ". t.sh" "/t.sh" "./t.sh"?](./questions/shell-script-execution-commands/index.md)
+2. [Review the bash script](./questions/bash-script-review/index.md)
