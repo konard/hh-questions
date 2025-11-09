@@ -15,4 +15,5 @@ Questions and answers on hh.ru
 - [A client complains about MySQL database performance issues - simple queries are executing slowly. Describe your actions.](./questions/mysql-performance-troubleshooting/index.md)
 - [How would you block requests like "GET /?[a-z]{16} HTTP/1.1" in Nginx?](./questions/nginx-request-blocking/index.md)
 - [What is happening on the server? Describe in the format of a response to the client, and if you have optimization suggestions, also specify them.](./questions/server-performance-analysis/index.md)
+- [What is happening on the server based on the screenshot? Describe in a client-facing response format, and if you have optimization suggestions, please include them.](./questions/server-monitoring-analysis/index.md)
 - [What is the difference between the commands: "t.sh" ". t.sh" "/t.sh" "./t.sh"?](./questions/shell-script-execution-commands/index.md)
