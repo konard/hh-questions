@@ -15,6 +15,6 @@
 - [Какой из запросов MySQL самый тяжелый и как вы его выявили?](./questions/mysql-heaviest-query-identification/index.ru.md)
 - [Клиент жалуется на проблемы в работе БД MySQL - простые запросы выполняются медленно. Опишите ваши действия.](./questions/mysql-performance-troubleshooting/index.ru.md)
 - [Расскажите, каким образом вы будете блокировать в Nginx запросы вида "GET /?[a-z]{16} HTTP/1.1"?](./questions/nginx-request-blocking/index.ru.md)
-- [Что происходит на сервере? Опишите в формате ответа для клиента, если у вас есть предложения по оптимизации, также укажите их.](./questions/server-performance-analysis/index.ru.md)
 - [Что происходит на сервере по скриншоту? Опишите в формате ответа для клиента, если у вас есть предложения по оптимизации, также укажите их.](./questions/server-monitoring-analysis/index.ru.md)
+- [Что происходит на сервере? Опишите в формате ответа для клиента, если у вас есть предложения по оптимизации, также укажите их.](./questions/server-performance-analysis/index.ru.md)
 - [Расскажите, чем отличаются команды: "t.sh" ". t.sh" "/t.sh" "./t.sh"?](./questions/shell-script-execution-commands/index.ru.md)
