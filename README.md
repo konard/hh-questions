@@ -14,6 +14,7 @@ Questions and answers on hh.ru
 - [Is the `iostat -x` command sufficient to assess the real disk load?](./questions/iostat-disk-load-assessment/index.md)
 - [Which MySQL query is the heaviest and how did you identify it?](./questions/mysql-heaviest-query-identification/index.md)
 - [A client complains about MySQL database performance issues - simple queries are executing slowly. Describe your actions.](./questions/mysql-performance-troubleshooting/index.md)
+- [We know there are exactly 7 records with ticket_id=56412. How could the difference in count appear between `=` and `LIKE` queries?](./questions/mysql-ticket-id-count-discrepancy/index.md)
 - [How would you block requests like "GET /?[a-z]{16} HTTP/1.1" in Nginx?](./questions/nginx-request-blocking/index.md)
 - [What is happening on the server? Describe in the format of a response to the client, and if you have optimization suggestions, also specify them.](./questions/server-performance-analysis/index.md)
 - [What is happening on the server based on the screenshot? Describe in a client-facing response format, and if you have optimization suggestions, please include them.](./questions/server-monitoring-analysis/index.md)
