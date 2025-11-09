@@ -12,4 +12,5 @@ Questions and answers on hh.ru
 - [A client requests a fault-tolerant solution with 99.9% SLA for 7 websites (Nginx, PHP, MySQL, Redis, Memcached), static content occupies 10TB and will grow to 50TB during the year, each database occupies 50GB. Propose a solution and describe the technical implementation.](./questions/fault-tolerant-infrastructure-design/index.md)
 - [Is the `iostat -x` command sufficient to assess the real disk load?](./questions/iostat-disk-load-assessment/index.md)
 - [A client complains about MySQL database performance issues - simple queries are executing slowly. Describe your actions.](./questions/mysql-performance-troubleshooting/index.md)
+- [How would you block requests like "GET /?[a-z]{16} HTTP/1.1" in Nginx?](./questions/nginx-request-blocking/index.md)
 - [What is the difference between the commands: "t.sh" ". t.sh" "/t.sh" "./t.sh"?](./questions/shell-script-execution-commands/index.md)
