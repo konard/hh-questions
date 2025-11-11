@@ -21,14 +21,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          python-version: '3.11'
+          bun-version: latest
 
       - name: Check questions are sorted alphabetically
-        run: python .github/workflows/check-questions-sorted.py
+        run: bun run .github/workflows/check-questions-sorted.mjs
 
       - name: Report success
         if: success()
-        run: echo "✓ All questions are sorted alphabetically by directory name"
+        run: echo "✓ All questions are sorted alphabetically by question text"
