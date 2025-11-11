@@ -28,26 +28,33 @@ Thank you for your interest in contributing to this project! This repository con
 4. **Update both README files**:
    - Add the new question to `README.md` (English)
    - Add the new question to `README.ru.md` (Russian)
-   - **IMPORTANT**: Keep questions sorted in **alphabetical order by directory name** to reduce merge conflicts
+   - **IMPORTANT**: Keep questions sorted in **alphabetical order by the question text in that language** to reduce merge conflicts and make it easier for readers to find questions
 
 5. **Ensure content equivalence**: Both language versions should contain equivalent comprehensive content
 
 ### Question List Sorting
 
-**Questions in README files must be sorted alphabetically by their directory names.** This is critical to minimize merge conflicts when multiple contributors add new questions simultaneously.
+**Questions in README files must be sorted alphabetically by their question text in the respective language.** This is critical to:
+- Minimize merge conflicts when multiple contributors add new questions simultaneously
+- Make it easier for readers to search and find questions in their native language
 
 **Important: Use bullet points (`-`), not numbered lists (`1.`, `2.`, etc.) in README files.** Numbered lists always cause merge conflicts when multiple contributors add questions at different positions. Bullet points avoid this problem.
 
-Example of correct alphabetical order with bullet points:
+**Sorting rules:**
+- `README.md` (English): Sort questions alphabetically by their English question text
+- `README.ru.md` (Russian): Sort questions alphabetically by their Russian question text
+- The same question may appear in different positions in English and Russian READMEs due to translation
+
+Example of correct alphabetical order with bullet points (English):
 ```
-- bash-script-review
-- disk-space-inodes-issue
-- iostat-disk-load-assessment
-- mysql-performance-troubleshooting
-- shell-script-execution-commands
+- [A client complains about MySQL database performance issues...](...)
+- [How would you block requests like "GET /?[a-z]{16} HTTP/1.1" in Nginx?](...)
+- [Is the `iostat -x` command sufficient to assess the real disk load?](...)
+- [Review the bash script](...)
+- [What is the difference between the commands: "t.sh" ". t.sh" "/t.sh" "./t.sh"?](...)
 ```
 
-When adding a new question, insert it in the correct alphabetical position rather than appending to the end of the list.
+When adding a new question, insert it in the correct alphabetical position based on the question text rather than appending to the end of the list.
 
 ### Style Guidelines
 
