@@ -56,6 +56,40 @@ Example of correct alphabetical order with bullet points (English):
 
 When adding a new question, insert it in the correct alphabetical position based on the question text rather than appending to the end of the list.
 
+### Working with Images
+
+**Use a global images index** to allow reusing images across different questions and creating variations of questions that differ only by image number.
+
+**Image organization:**
+1. **Store all images** in the global `/images/` directory at the repository root
+2. **Name images** using sequential numbers: `image-1.png`, `image-2.png`, `image-3.png`, etc.
+3. **Reference images** from questions using relative paths: `../../images/image-N.png`
+
+**Question naming with images:**
+- When a question uses an image, append the image number to the directory name: `server-monitoring-analysis-1`, `server-monitoring-analysis-2`, etc.
+- This allows creating multiple similar questions that differ only by the image/screenshot used
+- Update the question text in README files to indicate which image is referenced: "...based on the screenshot (image-1)..."
+
+**Example structure:**
+```
+/images/
+  image-1.png
+  image-2.png
+/questions/
+  server-monitoring-analysis-1/
+    index.md          (references ../../images/image-1.png)
+    index.ru.md       (references ../../images/image-1.png)
+  server-monitoring-analysis-2/
+    index.md          (references ../../images/image-2.png)
+    index.ru.md       (references ../../images/image-2.png)
+```
+
+**Benefits of global images index:**
+- Unique numbering across all images in the repository
+- Easy to reference the same image from multiple questions if needed
+- Clear versioning when creating question variations with different screenshots
+- Organized central location for all visual assets
+
 ### Style Guidelines
 
 - Use clear, professional language

@@ -14,7 +14,7 @@ Questions and answers on hh.ru
 - [Review the bash script](./questions/bash-script-review/index.md)
 - [The server has run out of free space, new files cannot be created, but df -h shows that free space is available. Describe the reasons why this could happen.](./questions/disk-space-inodes-issue/index.md)
 - [We know there are exactly 7 records with ticket_id=56412. How could the difference in count appear between `=` and `LIKE` queries?](./questions/mysql-ticket-id-count-discrepancy/index.md)
-- [What is happening on the server based on the screenshot? Describe in a client-facing response format, and if you have optimization suggestions, please include them.](./questions/server-monitoring-analysis/index.md)
+- [What is happening on the server based on the screenshot (image-1)? Describe in a client-facing response format, and if you have optimization suggestions, please include them.](./questions/server-monitoring-analysis-1/index.md)
 - [What is happening on the server? Describe in the format of a response to the client, and if you have optimization suggestions, also specify them.](./questions/server-performance-analysis/index.md)
 - [What is the difference between the commands: "t.sh" ". t.sh" "/t.sh" "./t.sh"?](./questions/shell-script-execution-commands/index.md)
 - [Which dependencies (explicit and implicit) are used in this role: rhel_python_sub?](./questions/ansible-role-dependencies/index.md)
